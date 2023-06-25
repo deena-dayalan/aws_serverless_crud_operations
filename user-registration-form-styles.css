@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-image: url('http://dna-hpc-frontend-media.s3-website-us-east-1.amazonaws.com/images/dna.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  color: #333;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+  padding: 8px;
+  width: 250px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+img.fit-image {
+  width: 100%;
+  height: auto;
+}
